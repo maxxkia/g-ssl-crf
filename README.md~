@@ -23,15 +23,4 @@ bin\junto-master\README.md
 Run the graphcrf script contained in the root directory with the following arguments:
 ./graphcrf <labeledData.crf> <unlabeledData.crf> <testData.crf> <devData.crf>
 
-a sample input data is provided in ./Data folder, so the program call would be:
-./graphcrf Data/atis.labeled Data/atis.unlabeled Data/atis.test
-
-This will run the program on a pre-shuffled set of data. To shuffle the data and
-run the program at the same time you should run the ./shufflerun script using
-the following arguments:
-./shufflerun <dataset.crf> <test.crf> <a float number representing percent of labeled data> <a float number representing percent of unlabeled data> <a float representing percent of dev data>
-
-e.g.
-./shufflerun Data/atis Data/atis.test 0.1 0.9 0.1
-
-note: all input data provided for "graphcrf" should be in standard CRF format
+all input data provided for "graphcrf" should be in standard CRF format

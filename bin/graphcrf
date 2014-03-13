@@ -13,7 +13,7 @@ mu1=1
 mu2=1e-2
 mu3=1e-2
 beta=2
-graph_feature=features
+graph_feature=features-7
 build_graph=1 # 0: doesn't build the graph, 1: builds the graph. the CRF initial model trains if the graph is about to be built either.
 output_folder=Output
 model_folder=Model
@@ -27,7 +27,8 @@ test_data_crf=$test.indexed
 labeled_label_dict=labeledLabel.dict
 labels_dict=label.dict
 words_dict=word.dict
-classes_dict=class.dict
+classes_dict=classes.dict
+prepositions_dict=prep.dict
 
 labeled_data=$labeled_data_crf.crfs
 unlabeled_data=$unlabeled_data_crf.crfs
@@ -61,6 +62,10 @@ then
 	./indexer.py -l $train -u $unlabeled -t $test -d $test
 	echo "Done indexing."
 
+	echo "Updating the Classes and Prepositions Dictionaries."
+	./updatedicts.py class.dict classes.dict prep.dict
+	echo "Done updating"
+
 	echo "Converting training and test sets to CRFSuite format."
 	echo "Current feature window is class[-2,+2], you may change it in file understanding.py"
 	cat $labeled_data_crf | ./understanding.py > $labeled_data
@@ -83,7 +88,7 @@ then
 	echo "Done evaluating the test data on the initial CRF model."
 
 	echo "Building kNN similarity graph."
-	java -Xmx16g -jar GraphConstruct.jar -graph -text $labeled_data_crf -textU $unlabeled_data_crf -output $graphConstructOutput -features $graph_feature -dictionary $labels_dict
+	java -Xmx16g -jar GraphConstruct.jar -graph -text $labeled_data_crf -textU $unlabeled_data_crf -output $graphConstructOutput -features $graph_feature -dictionary $labels_dict -classdic $classes_dict -prepositiondic $prepositions_dict -threshold 0.1
 	echo "Done building graph."
 fi
 
