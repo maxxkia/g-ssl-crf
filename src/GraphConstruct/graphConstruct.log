@@ -1,0 +1,588 @@
+
+2014/01/03 20:40:35 - graphConstruct started
+2014/01/03 20:40:35 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 20:40:36 - [GraphConstructRunner]-finished exporting graph data task started.
+2014/01/03 20:40:36 - graphConstruct finished
+
+2014/01/03 20:41:25 - graphConstruct started
+2014/01/03 20:41:26 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 20:41:27 - [GraphConstructRunner]-finished exporting graph data task finished in 0 min, 0 second(s)
+2014/01/03 20:41:27 - graphConstruct finished
+
+2014/01/03 21:16:24 - graphConstruct started
+2014/01/03 21:16:24 - [GraphBuilder]-started creating nodes of ngram graphs task started.
+2014/01/03 21:16:24 - [GraphBuilder]-finished creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/03 21:16:24 - [GraphBuilder]-started calculating pmi values and assigning edge weights for nodes task started.
+2014/01/03 21:17:50 - [GraphBuilder]-finished assigning edge values task finished in 1 min, 26 second(s)
+2014/01/03 21:17:50 - [GraphBuilder]-started converting graph to KNN form task started.
+2014/01/03 21:17:50 - [GraphBuilder]-finished converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/03 21:17:50 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 21:17:51 - [GraphConstructRunner]-finished exporting graph data task finished in 0 min, 0 second(s)
+2014/01/03 21:17:51 - graphConstruct finished
+
+2014/01/03 21:19:10 - graphConstruct started
+2014/01/03 21:19:10 - [GraphBuilder]-started creating nodes of ngram graphs task started.
+2014/01/03 21:19:10 - [GraphBuilder]-finished creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/03 21:19:10 - [GraphBuilder]-started calculating pmi values and assigning edge weights for nodes task started.
+2014/01/03 21:20:38 - [GraphBuilder]-finished assigning edge values task finished in 1 min, 27 second(s)
+2014/01/03 21:20:38 - [GraphBuilder]-started converting graph to KNN form task started.
+2014/01/03 21:20:38 - [GraphBuilder]-finished converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/03 21:20:38 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 21:20:39 - [GraphConstructRunner]-finished exporting graph data task finished in 0 min, 0 second(s)
+2014/01/03 21:20:39 - graphConstruct finished
+
+2014/01/03 22:23:55 - graphConstruct started
+2014/01/03 22:23:55 - [GraphBuilder]-started creating nodes of ngram graphs task started.
+2014/01/03 22:23:56 - [GraphBuilder]-finished creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/03 22:23:56 - [GraphBuilder]-started calculating pmi values and assigning edge weights for nodes task started.
+2014/01/03 22:25:14 - [GraphBuilder]-finished assigning edge values task finished in 1 min, 17 second(s)
+2014/01/03 22:25:14 - [GraphBuilder]-started converting graph to KNN form task started.
+2014/01/03 22:25:14 - [GraphBuilder]-finished converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/03 22:25:14 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 22:25:14 - [GraphConstructRunner]-finished exporting graph data task finished in 0 min, 0 second(s)
+2014/01/03 22:25:14 - graphConstruct finished
+
+2014/01/03 22:25:30 - graphConstruct started
+2014/01/03 22:25:30 - [GraphBuilder]-started creating nodes of ngram graphs task started.
+2014/01/03 22:25:30 - [GraphBuilder]-finished creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/03 22:25:30 - [GraphBuilder]-started calculating pmi values and assigning edge weights for nodes task started.
+2014/01/03 22:26:49 - [GraphBuilder]-finished assigning edge values task finished in 1 min, 18 second(s)
+2014/01/03 22:26:49 - [GraphBuilder]-started converting graph to KNN form task started.
+2014/01/03 22:26:49 - [GraphBuilder]-finished converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/03 22:26:49 - [GraphConstructRunner]-started exporting graph data task started.
+2014/01/03 22:26:49 - [GraphConstructRunner]-finished exporting graph data task finished in 0 min, 0 second(s)
+2014/01/03 22:26:49 - graphConstruct finished
+
+2014/01/04 09:13:41 - graphConstruct  task started.
+2014/01/04 09:13:41 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 09:13:41 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/04 09:13:41 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 09:14:58 - [GraphBuilder]- assigning edge values task finished in 1 min, 16 second(s)
+2014/01/04 09:14:58 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 09:14:58 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 09:14:58 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 09:14:59 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/04 09:14:59 - graphConstruct  task finished in 0 min, 0 second(s)
+
+2014/01/04 09:16:01 - graphConstruct  task started.
+2014/01/04 09:16:01 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 09:16:01 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/04 09:16:01 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 09:17:20 - [GraphBuilder]- assigning edge values task finished in 1 min, 18 second(s)
+2014/01/04 09:17:20 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 09:17:20 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 09:17:20 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 09:17:21 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/04 09:17:21 - graphConstruct  task finished in 0 min, 0 second(s)
+
+2014/01/04 11:19:03 - [GraphConstructRunner]-  task started.
+2014/01/04 11:19:03 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 11:19:05 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/04 11:19:05 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 11:28:27 - [GraphBuilder]- assigning edge values task finished in 9 min, 21 second(s)
+2014/01/04 11:28:27 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 11:28:27 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 11:28:27 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 11:28:28 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 11:28:28 - [GraphConstructRunner]-  task finished in 9 min, 25 second(s)
+
+2014/01/04 11:38:31 - [GraphConstructRunner]-  task started.
+2014/01/04 11:38:31 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 11:38:32 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/04 11:38:32 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 11:38:39 - [GraphBuilder]- assigning edge values task finished in 0 min, 7 second(s)
+2014/01/04 11:38:39 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 11:38:39 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 11:38:39 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 11:38:41 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 11:38:41 - [GraphConstructRunner]-  task finished in 0 min, 10 second(s)
+
+2014/01/04 11:48:32 - [GraphConstructRunner]-  task started.
+2014/01/04 11:48:32 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 11:48:34 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/04 11:48:34 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 11:48:42 - [GraphBuilder]- assigning edge values task finished in 0 min, 7 second(s)
+2014/01/04 11:48:42 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 11:48:42 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 11:48:42 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 11:48:44 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 11:48:44 - [GraphConstructRunner]-  task finished in 0 min, 11 second(s)
+
+2014/01/04 11:50:52 - [GraphConstructRunner]-  task started.
+2014/01/04 11:50:53 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 11:50:54 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 11:50:54 - [GraphConstructRunner]-  task finished in 0 min, 2 second(s)
+
+2014/01/04 11:52:45 - [GraphConstructRunner]-  task started.
+2014/01/04 11:52:46 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 11:52:47 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 11:52:47 - [GraphConstructRunner]-  task finished in 0 min, 2 second(s)
+
+2014/01/04 11:52:59 - [GraphConstructRunner]-  task started.
+2014/01/04 11:52:59 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 11:53:00 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/04 11:53:00 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 12:03:29 - [GraphBuilder]- assigning edge values task finished in 10 min, 29 second(s)
+2014/01/04 12:03:29 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 12:03:29 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 12:03:29 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 12:03:31 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/04 12:03:31 - [GraphConstructRunner]-  task finished in 10 min, 32 second(s)
+
+2014/01/04 14:23:46 - [GraphConstructRunner]-  task started.
+2014/01/04 14:25:28 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 14:25:46 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 17 second(s)
+2014/01/04 14:25:46 - [GraphConstructRunner]-  task finished in 1 min, 59 second(s)
+
+2014/01/04 15:50:01 - [GraphConstructRunner]-  task started.
+2014/01/04 15:51:33 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 15:51:47 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 13 second(s)
+2014/01/04 15:51:47 - [GraphConstructRunner]-  task finished in 1 min, 45 second(s)
+
+2014/01/04 21:16:01 - [GraphConstructRunner]-  task started.
+2014/01/04 21:16:01 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 21:16:02 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/04 21:16:02 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 21:16:03 - [GraphBuilder]- assigning edge values task finished in 0 min, 1 second(s)
+2014/01/04 21:16:03 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 21:16:03 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 21:16:03 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 21:16:04 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/04 21:16:04 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/01/04 21:19:04 - [GraphConstructRunner]-  task started.
+2014/01/04 21:19:04 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 21:19:04 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/04 21:19:04 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 21:20:29 - [GraphBuilder]- assigning edge values task finished in 1 min, 24 second(s)
+2014/01/04 21:20:29 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 21:20:29 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 21:20:29 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 21:20:30 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/04 21:20:30 - [GraphConstructRunner]-  task finished in 1 min, 25 second(s)
+
+2014/01/04 21:22:15 - [GraphConstructRunner]-  task started.
+2014/01/04 21:22:15 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/04 21:22:21 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 6 second(s)
+2014/01/04 21:22:21 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/04 21:23:07 - [GraphBuilder]- assigning edge values task finished in 0 min, 45 second(s)
+2014/01/04 21:23:07 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/04 21:23:07 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/04 21:23:07 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/04 21:23:10 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 2 second(s)
+2014/01/04 21:23:10 - [GraphConstructRunner]-  task finished in 0 min, 54 second(s)
+
+2014/01/05 19:09:47 - [GraphConstructRunner]-  task started.
+2014/01/05 19:09:47 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/05 19:09:54 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 7 second(s)
+2014/01/05 19:09:54 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/05 19:10:32 - [GraphBuilder]- assigning edge values task finished in 0 min, 37 second(s)
+2014/01/05 19:10:32 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/05 19:10:32 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/05 19:10:32 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/05 19:10:35 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 3 second(s)
+2014/01/05 19:10:35 - [GraphConstructRunner]-  task finished in 0 min, 48 second(s)
+
+2014/01/06 16:40:59 - [GraphConstructRunner]-  task started.
+2014/01/06 16:40:59 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/06 16:41:01 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 2 second(s)
+2014/01/06 16:41:01 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/06 16:41:07 - [GraphBuilder]- assigning edge values task finished in 0 min, 6 second(s)
+2014/01/06 16:41:07 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/06 16:41:08 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/06 16:41:08 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/06 16:41:09 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/06 16:41:09 - [GraphConstructRunner]-  task finished in 0 min, 10 second(s)
+
+2014/01/06 17:08:44 - [GraphConstructRunner]-  task started.
+2014/01/06 17:08:44 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/06 17:08:46 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/06 17:08:46 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/06 17:08:52 - [GraphBuilder]- assigning edge values task finished in 0 min, 6 second(s)
+2014/01/06 17:08:52 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/06 17:08:52 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/06 17:08:52 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/06 17:08:54 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/06 17:08:54 - [GraphConstructRunner]-  task finished in 0 min, 10 second(s)
+
+2014/01/06 17:09:34 - [GraphConstructRunner]-  task started.
+2014/01/06 17:09:34 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/06 17:09:36 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 1 second(s)
+2014/01/06 17:09:36 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/06 17:09:42 - [GraphBuilder]- assigning edge values task finished in 0 min, 6 second(s)
+2014/01/06 17:09:42 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/06 17:09:42 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/06 17:09:42 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/06 17:09:44 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/06 17:09:44 - [GraphConstructRunner]-  task finished in 0 min, 10 second(s)
+
+2014/01/13 15:08:08 - [GraphConstructRunner]-  task started.
+2014/01/13 15:08:10 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/13 15:08:12 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 1 second(s)
+2014/01/13 15:08:12 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/01/16 12:24:33 - [GraphConstructRunner]-  task started.
+2014/01/16 12:25:15 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/16 12:25:32 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 17 second(s)
+2014/01/16 12:25:32 - [GraphConstructRunner]-  task finished in 0 min, 58 second(s)
+
+2014/01/16 12:52:15 - [GraphConstructRunner]-  task started.
+2014/01/16 12:52:48 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/16 12:53:03 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 15 second(s)
+2014/01/16 12:53:03 - [GraphConstructRunner]-  task finished in 0 min, 48 second(s)
+
+2014/01/16 12:55:22 - [GraphConstructRunner]-  task started.
+2014/01/16 12:55:56 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/16 12:56:13 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 17 second(s)
+2014/01/16 12:56:13 - [GraphConstructRunner]-  task finished in 0 min, 51 second(s)
+
+2014/01/16 14:08:17 - [GraphConstructRunner]-  task started.
+2014/01/16 14:08:17 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/16 14:08:17 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/16 14:08:17 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/16 14:08:17 - [GraphBuilder]- assigning edge values task finished in 0 min, 0 second(s)
+2014/01/16 14:08:17 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/16 14:08:17 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/16 14:08:17 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/16 14:08:18 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/16 14:08:18 - [GraphConstructRunner]-  task finished in 0 min, 0 second(s)
+
+2014/01/16 14:09:53 - [GraphConstructRunner]-  task started.
+2014/01/16 14:09:53 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/16 14:09:53 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/16 14:09:53 - [GraphBuilder]- calculating pmi values and assigning edge weights for nodes task started.
+2014/01/16 14:09:53 - [GraphBuilder]- assigning edge values task finished in 0 min, 0 second(s)
+2014/01/16 14:09:53 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/16 14:09:53 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/16 14:09:53 - [GraphConstructRunner]- exporting graph data task started.
+2014/01/16 14:09:53 - [GraphConstructRunner]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/16 14:09:53 - [GraphConstructRunner]-  task finished in 0 min, 0 second(s)
+
+2014/01/29 10:33:18 - [GraphConstructRunner]-  task started.
+2014/01/29 10:33:18 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 10:33:18 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 10:33:18 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 10:33:18 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 10:33:18 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 10:33:19 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 0 second(s)
+2014/01/29 10:33:19 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 10:33:19 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 10:33:19 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 10:33:19 - [GraphConstructRunner]-  task finished in 0 min, 1 second(s)
+
+2014/01/29 11:33:56 - [GraphConstructRunner]-  task started.
+2014/01/29 11:33:56 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 11:33:57 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 11:33:57 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 11:33:57 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 11:33:57 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 11:34:00 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/29 11:34:00 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 11:34:00 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 11:34:00 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 11:34:00 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 11:34:00 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/29 12:00:24 - [GraphConstructRunner]-  task started.
+2014/01/29 12:00:24 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 12:00:24 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 12:00:24 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 12:00:25 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 12:00:25 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 12:00:26 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 1 second(s)
+2014/01/29 12:00:26 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 12:00:26 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 12:00:26 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 12:00:26 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 12:00:26 - [GraphConstructRunner]-  task finished in 0 min, 1 second(s)
+
+2014/01/29 12:05:57 - [GraphConstructRunner]-  task started.
+2014/01/29 12:05:57 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 12:05:57 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 12:05:57 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 12:05:57 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 12:05:57 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 12:05:59 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 1 second(s)
+2014/01/29 12:05:59 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 12:05:59 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 12:05:59 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 12:05:59 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 12:05:59 - [GraphConstructRunner]-  task finished in 0 min, 1 second(s)
+
+2014/01/29 12:31:37 - [GraphConstructRunner]-  task started.
+2014/01/29 12:31:37 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 12:31:37 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 12:31:37 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 12:31:38 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 12:31:38 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 12:31:40 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/01/29 12:31:40 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 12:31:40 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 12:31:40 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 12:31:40 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 12:31:40 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/01/29 12:36:39 - [GraphConstructRunner]-  task started.
+2014/01/29 12:36:39 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 12:36:40 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 12:36:40 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 12:36:40 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 12:36:40 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 12:36:43 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/01/29 12:36:43 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 12:36:43 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 12:36:43 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 12:36:43 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 12:36:43 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/01/29 12:45:33 - [GraphConstructRunner]-  task started.
+2014/01/29 12:45:33 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 12:45:33 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 12:45:33 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 12:45:34 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 12:45:34 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 12:45:36 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/01/29 12:45:36 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 12:45:36 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 12:45:36 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 12:47:00 - [GraphBuilder]- exporting graph data task finished in 1 min, 23 second(s)
+2014/01/29 12:47:00 - [GraphConstructRunner]-  task finished in 1 min, 27 second(s)
+
+2014/01/29 18:23:34 - [GraphConstructRunner]-  task started.
+2014/01/29 18:23:34 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 18:23:34 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 18:23:34 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 18:23:35 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 18:23:35 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 18:23:38 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/01/29 18:23:38 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 18:23:38 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 18:23:38 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 18:23:38 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 18:23:38 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/29 18:24:04 - [GraphConstructRunner]-  task started.
+2014/01/29 18:24:04 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 18:24:04 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 18:24:04 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 18:24:05 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 18:24:05 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 18:24:08 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/29 18:24:08 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 18:24:08 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 18:24:08 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 18:24:08 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 18:24:08 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/29 18:37:42 - [GraphConstructRunner]-  task started.
+2014/01/29 18:37:42 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 18:37:42 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 18:37:42 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 18:37:43 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 18:37:43 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 18:37:46 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/29 18:37:46 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 18:37:46 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 18:37:46 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 18:37:46 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 18:37:46 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/29 18:38:13 - [GraphConstructRunner]-  task started.
+2014/01/29 18:38:13 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/29 18:38:14 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/29 18:38:14 - [GraphBuilder]- calculating pmi values task started.
+2014/01/29 18:38:14 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/29 18:38:14 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/29 18:38:17 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/29 18:38:17 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/29 18:38:17 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/29 18:38:17 - [GraphBuilder]- exporting graph data task started.
+2014/01/29 18:38:17 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/29 18:38:17 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/01/30 15:25:42 - [GraphConstructRunner]-  task started.
+2014/01/30 15:25:42 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/30 15:25:42 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/30 15:25:42 - [GraphBuilder]- calculating pmi values task started.
+2014/01/30 15:25:42 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/30 15:25:42 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/30 15:25:46 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/30 15:25:46 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/30 15:25:46 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/30 15:25:46 - [GraphBuilder]- exporting graph data task started.
+2014/01/30 15:25:46 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/30 15:25:46 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/30 16:09:17 - [GraphConstructRunner]-  task started.
+2014/01/30 16:09:17 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/30 16:09:17 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/30 16:09:17 - [GraphBuilder]- calculating pmi values task started.
+2014/01/30 16:09:17 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/30 16:09:17 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/30 16:09:21 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/30 16:09:21 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/30 16:09:21 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/30 16:09:21 - [GraphBuilder]- exporting graph data task started.
+2014/01/30 16:09:21 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/30 16:09:21 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/30 16:10:57 - [GraphConstructRunner]-  task started.
+2014/01/30 16:10:57 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/30 16:10:58 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/30 16:10:58 - [GraphBuilder]- calculating pmi values task started.
+2014/01/30 16:10:58 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/30 16:10:58 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/30 16:11:02 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/30 16:11:02 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/30 16:11:02 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/30 16:11:02 - [GraphBuilder]- exporting graph data task started.
+2014/01/30 16:11:02 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/30 16:11:02 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/01/30 16:11:49 - [GraphConstructRunner]-  task started.
+2014/01/30 16:11:50 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/01/30 16:11:50 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/01/30 16:11:50 - [GraphBuilder]- calculating pmi values task started.
+2014/01/30 16:11:51 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/01/30 16:11:51 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/01/30 16:11:55 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 3 second(s)
+2014/01/30 16:11:55 - [GraphBuilder]- converting graph to KNN form task started.
+2014/01/30 16:11:55 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/01/30 16:11:55 - [GraphBuilder]- exporting graph data task started.
+2014/01/30 16:11:55 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/01/30 16:11:55 - [GraphConstructRunner]-  task finished in 0 min, 5 second(s)
+
+2014/02/56 11:33:32 - [GraphConstructRunner]-  task started.
+2014/02/56 11:33:33 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/02/56 11:33:33 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/02/56 11:33:33 - [GraphBuilder]- calculating pmi values task started.
+2014/02/56 11:33:34 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/02/56 11:33:34 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/02/56 11:33:36 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 1 second(s)
+2014/02/56 11:33:36 - [GraphBuilder]- converting graph to KNN form task started.
+2014/02/56 11:33:36 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/02/56 11:33:36 - [GraphBuilder]- exporting graph data task started.
+2014/02/56 11:33:36 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/02/56 11:33:37 - [GraphConstructRunner]-  task finished in 0 min, 4 second(s)
+
+2014/02/59 13:09:35 - [GraphConstructRunner]-  task started.
+2014/02/59 13:09:35 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/02/59 13:09:36 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/02/59 13:09:36 - [GraphBuilder]- calculating pmi values task started.
+2014/02/59 13:09:36 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/02/59 13:09:36 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/02/59 13:09:36 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 0 second(s)
+2014/02/59 13:09:36 - [GraphBuilder]- converting graph to KNN form task started.
+2014/02/59 13:09:36 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/02/59 13:09:36 - [GraphBuilder]- exporting graph data task started.
+2014/02/59 13:09:36 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/02/59 13:09:36 - [GraphConstructRunner]-  task finished in 0 min, 0 second(s)
+
+2014/03/71 11:29:36 - [GraphConstructRunner]-  task started.
+2014/03/71 11:29:36 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:29:36 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:29:36 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:29:37 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:29:37 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:29:40 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:29:40 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:29:40 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:29:40 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:29:40 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:29:40 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/03/71 11:31:09 - [GraphConstructRunner]-  task started.
+2014/03/71 11:31:09 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:31:09 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:31:09 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:31:09 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:31:09 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:31:11 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:31:11 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:31:11 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:31:11 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:31:11 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:31:11 - [GraphConstructRunner]-  task finished in 0 min, 2 second(s)
+
+2014/03/71 11:32:13 - [GraphConstructRunner]-  task started.
+2014/03/71 11:32:13 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:32:13 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:32:13 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:32:14 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:32:14 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:32:16 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 1 second(s)
+2014/03/71 11:32:16 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:32:16 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:32:16 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:32:16 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:32:16 - [GraphConstructRunner]-  task finished in 0 min, 2 second(s)
+
+2014/03/71 11:35:00 - [GraphConstructRunner]-  task started.
+2014/03/71 11:35:00 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:35:00 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:35:00 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:35:01 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:35:01 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:35:03 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:35:03 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:35:03 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:35:03 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:35:03 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:35:03 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/03/71 11:53:18 - [GraphConstructRunner]-  task started.
+2014/03/71 11:53:18 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:53:19 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:53:19 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:53:19 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:53:19 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:53:21 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:53:21 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:53:21 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:53:21 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:53:21 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:53:22 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/03/71 11:53:29 - [GraphConstructRunner]-  task started.
+2014/03/71 11:53:29 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:53:30 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:53:30 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:53:30 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:53:30 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:53:32 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:53:32 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:53:32 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:53:32 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:53:32 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:53:32 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/03/71 11:56:10 - [GraphConstructRunner]-  task started.
+2014/03/71 11:56:10 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 11:56:10 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 11:56:10 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 11:56:11 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 11:56:11 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 11:56:13 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 11:56:13 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 11:56:13 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 11:56:13 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 11:56:13 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 11:56:13 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)
+
+2014/03/71 12:09:20 - [GraphConstructRunner]-  task started.
+2014/03/71 12:09:20 - [GraphBuilder]- creating nodes of ngram graphs task started.
+2014/03/71 12:09:20 - [GraphBuilder]- creating nodes of ngram graphs task finished in 0 min, 0 second(s)
+2014/03/71 12:09:20 - [GraphBuilder]- calculating pmi values task started.
+2014/03/71 12:09:21 - [GraphBuilder]- calculating pmi values task finished in 0 min, 0 second(s)
+2014/03/71 12:09:21 - [GraphBuilder]- assigning edge weights for nodes task started.
+2014/03/71 12:09:23 - [GraphBuilder]- assigning edge weights for nodes task finished in 0 min, 2 second(s)
+2014/03/71 12:09:23 - [GraphBuilder]- converting graph to KNN form task started.
+2014/03/71 12:09:23 - [GraphBuilder]- converting graph to KNN form task finished in 0 min, 0 second(s)
+2014/03/71 12:09:23 - [GraphBuilder]- exporting graph data task started.
+2014/03/71 12:09:23 - [GraphBuilder]- exporting graph data task finished in 0 min, 0 second(s)
+2014/03/71 12:09:23 - [GraphConstructRunner]-  task finished in 0 min, 3 second(s)

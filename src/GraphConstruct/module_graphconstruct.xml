@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_graphconstruct" default="compile.module.graphconstruct">
+  <dirname property="module.graphconstruct.basedir" file="${ant.file.module_graphconstruct}"/>
+  
+  <property name="module.jdk.home.graphconstruct" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.graphconstruct" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.graphconstruct" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.graphconstruct" value="${compiler.args}"/>
+  
+  <property name="graphconstruct.output.dir" value="${module.graphconstruct.basedir}/out/production/GraphConstruct"/>
+  <property name="graphconstruct.testoutput.dir" value="${module.graphconstruct.basedir}/out/test/GraphConstruct"/>
+  
+  <path id="graphconstruct.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="graphconstruct.module.production.classpath">
+    <path refid="${module.jdk.classpath.graphconstruct}"/>
+  </path>
+  
+  <path id="graphconstruct.runtime.production.module.classpath">
+    <pathelement location="${graphconstruct.output.dir}"/>
+  </path>
+  
+  <path id="graphconstruct.module.classpath">
+    <path refid="${module.jdk.classpath.graphconstruct}"/>
+    <pathelement location="${graphconstruct.output.dir}"/>
+  </path>
+  
+  <path id="graphconstruct.runtime.module.classpath">
+    <pathelement location="${graphconstruct.testoutput.dir}"/>
+    <pathelement location="${graphconstruct.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.graphconstruct">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.graphconstruct">
+    <patternset refid="excluded.from.module.graphconstruct"/>
+  </patternset>
+  
+  <path id="graphconstruct.module.sourcepath">
+    <dirset dir="${module.graphconstruct.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.graphconstruct" depends="compile.module.graphconstruct.production,compile.module.graphconstruct.tests" description="Compile module GraphConstruct"/>
+  
+  <target name="compile.module.graphconstruct.production" depends="register.custom.compilers" description="Compile module GraphConstruct; production classes">
+    <mkdir dir="${graphconstruct.output.dir}"/>
+    <javac2 destdir="${graphconstruct.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.graphconstruct}/javac">
+      <compilerarg line="${compiler.args.graphconstruct}"/>
+      <bootclasspath refid="graphconstruct.module.bootclasspath"/>
+      <classpath refid="graphconstruct.module.production.classpath"/>
+      <src refid="graphconstruct.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.graphconstruct"/>
+    </javac2>
+    
+    <copy todir="${graphconstruct.output.dir}">
+      <fileset dir="${module.graphconstruct.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.graphconstruct.tests" depends="register.custom.compilers,compile.module.graphconstruct.production" description="compile module GraphConstruct; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.graphconstruct" description="cleanup module">
+    <delete dir="${graphconstruct.output.dir}"/>
+    <delete dir="${graphconstruct.testoutput.dir}"/>
+  </target>
+</project>
