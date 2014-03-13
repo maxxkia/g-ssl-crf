@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# Uage: 
+# 	graphcrf <labeled> <unlabeled> <test> <alpha> <eta> <mu1> <mu2> <mu3> <beta> <graphfeature> <buildgraph> <outputfolder> <modelfolder>
+
+# assigning input parameters to local variables
+train=$1
+unlabeled=$2
+test=$3
+alpha=0.1
+eta=0.1
+mu1=1
+mu2=1e-2
+mu3=1e-2
+beta=2
+graph_feature=features
+build_graph=1 # 0: doesn't build the graph, 1: builds the graph. the CRF initial model trains if the graph is about to be built either.
+output_folder=Output
+model_folder=Model
+
+# assigining all the variables
+labeled_data_crf=$train.indexed
+unlabeled_data_crf=$unlabeled.indexed
+dev_data_crf=$train.dev.indexed
+test_data_crf=$test.indexed
+
+labeled_label_dict=labeledLabel.dict
+labels_dict=label.dict
+words_dict=word.dict
+classes_dict=class.dict
+
+labeled_data=$labeled_data_crf.crfs
+unlabeled_data=$unlabeled_data_crf.crfs
+dev_data=$dev_data_crf.crfs
+test_data=$test_data_crf.crfs
+
+labeled_model=labeled.model
+
+labeled_pred=$output_folder/out.pred
+labeled_pred_w=$labeled_pred.w
+
+pred_labeled_tbl=$output_folder/pred.labeled.tbl
+ref_tbl=$output_folder/ref.tbl
+
+marginals=$output_folder/unlabeled.marginals
+
+graphConstructOutput=atis.new
+
+graph=$graphConstructOutput.graph
+
+
+echo "Starting with eta=$eta and alpha=$alpha"
+
+if [ "$build_graph" == "1" ]
+then
+	#echo "Shuffling and splitting data into labeled and unlabeled data."
+	#./shuffle.py -i $train -l 0.05 -u 0.90 -d 0.05
+	#echo "Done shuffling and splitting."
+
+	echo "Indexing the datasets."
+	./indexer.py -l $train -u $unlabeled -t $test -d $test
+	echo "Done indexing."
+
+	echo "Converting training and test sets to CRFSuite format."
+	echo "Current feature window is class[-2,+2], you may change it in file understanding.py"
+	cat $labeled_data_crf | ./understanding.py > $labeled_data
+	cat $unlabeled_data_crf | ./understanding.py > $unlabeled_data
+	#cat $dev_data_crf | ./understanding.py > $dev_data
+	cat $test_data_crf | ./understanding.py > $test_data
+	echo "Done converting to CRFSuite format."
+
+	echo "Starting the main algorithm."
+
+	echo "Training CRF on the labeled data."
+	./crfsuite learn -m $labeled_model $labeled_data
+	echo "Done training the labeled data."
+
+	echo "Evaluating the labeled model on the test data."
+	./crfsuite tag -m $labeled_model $test_data > $labeled_pred
+	./labelreindexer.py -i $labeled_pred -l $labels_dict -o $labeled_pred_w
+	./CRFSuiteAligned2TBLFormat.py -i $labeled_pred_w -t $test -p $pred_labeled_tbl -r $ref_tbl
+	./cuedSemScore.pl $pred_labeled_tbl $ref_tbl
+	echo "Done evaluating the test data on the initial CRF model."
+
+	echo "Building kNN similarity graph."
+	java -Xmx16g -jar GraphConstruct.jar -graph -text $labeled_data_crf -textU $unlabeled_data_crf -output $graphConstructOutput -features $graph_feature -dictionary $labels_dict
+	echo "Done building graph."
+fi
+
+echo "We are about to start the loop."
+previous_model=$labeled_model
+for i in {1..3} 
+do
+	echo "*** Begining iteration $i of the whole algorithm ***"
+	echo "Writing out unlabeled data marginals."
+
+	marginals=$output_folder/unlabeled.$i.marginals
+
+	./crfsuite marginal -m $previous_model -o $marginals $unlabeled_data > t
+
+	echo "Done writing out marginals."
+	echo "Starting calculating type-level posteriors and empirical label distribution."
+
+	q=$output_folder/$graphConstructOutput.$i.type2probability
+	r=$output_folder/$graphConstructOutput.$i.seed
+	echo "calculating type level posteriors"
+	java -Xmx8g -jar GraphConstruct.jar -typeprobability -text $unlabeled_data_crf -labels $labeled_label_dict -marginals $marginals -output $output_folder/$graphConstructOutput.$i
+	echo "calculating empirical label distribution"
+	java -Xmx8g -jar GraphConstruct.jar -empirical -text $labeled_data_crf -output $output_folder/$graphConstructOutput.$i
+
+	echo "Done calculating type-level posteriors and empirical label distribution."
+	echo "Starting label propagation."
+
+	config_file=atis.config
+	q_hat=$output_folder/$graph.$i.prop
+	q_hat_prim=$output_folder/$graph.$i.q
+	junto config $config_file graph_file=$graph seed_file=$r type2probability_file=$q output_file=$q_hat
+	java -jar JuntoOutputConvertor.jar -text $q_hat -labels $labeled_label_dict -output $q_hat_prim
+
+	echo "Done label propagation."
+	echo "Starting viterbi decoding."
+
+	unlabeled_nor=$train.unlabeled.indexed.nor
+	viterbi_decode_output=$output_folder/viterbi.$i.out
+	./crf2nor.py -i $unlabeled_data_crf -o $unlabeled_nor	
+	./crfsuite viterbi-decode -a $alpha -m $previous_model -s $unlabeled_nor -g $q_hat_prim $unlabeled_data > $viterbi_decode_output
+
+	echo "Done viterbi decoding."
+	echo "Retraining CRF using the unlabeled data."
+
+	unlabeled_injected=$viterbi_decode_output.$i.injected
+	./labelInject.py -l $viterbi_decode_output -c $unlabeled_data -o $unlabeled_injected
+
+	unlabeled_model=$model_folder/unlabeled.$i.model
+	./crfsuite retrain -i $previous_model -m $unlabeled_model -u $unlabeled_injected -E $eta $labeled_data
+	previous_model=$unlabeled_model
+	echo "Done retraining CRF."
+	echo "Evaluating the retrained CRF on the test data."
+
+	unlabeled_pred=$output_folder/uout.$i.pred
+	unlabeled_pred_w=$unlabeled_pred.w
+	./crfsuite tag -m $unlabeled_model $test_data > $unlabeled_pred
+	./labelreindexer.py -i $unlabeled_pred -l $labels_dict -o $unlabeled_pred_w
+
+	pred_unlabeled_tbl=$output_folder/pred.unlabeled.$i.tbl
+	ref_tbl=$output_folder/ref.$i.tbl
+	./CRFSuiteAligned2TBLFormat.py -i $unlabeled_pred_w -t $test -p $pred_unlabeled_tbl -r $ref_tbl
+
+	./cuedSemScore.pl $pred_unlabeled_tbl $ref_tbl
+
+	#rm $marginals
+done

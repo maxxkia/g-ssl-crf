@@ -1,0 +1,14 @@
+output/
+netbeans
+.idea/
+src/main/Main.iml
+*.gz
+tmp
+target/
+lib_managed/
+src_managed/
+project/boot/
+*~
+examples/simple/data/label_prop_output
+examples/ppa/data
+
