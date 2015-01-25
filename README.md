@@ -3,7 +3,11 @@ graph-ssl-crf
 
 # Graph-Based Semi-Supervised CRF for Language Understanding
 
-This package contains all executables necessary for running the Semi-Supervised CRF.
+This package contains all executables necessary for running the Semi-Supervised CRF. It is the implementation of our paper:
+  Graph-based semi-supervised conditional random fields for spoken language understanding using unaligned data
+  M. Aliannejadi, M. Kiaeeha et al., ALTW 2014
+
+Please cite our work if you use it.
 
 ## System Requirements
 
